@@ -59,5 +59,21 @@ function drawButton(){
 
 drawButton()
 
+function drawTeam2Button(){
+    let score2 = document.getElementById('awayScore')
+    team2 =  0
+    score2.innerText = team2
+    console.log(team2)
+}
+drawTeam2Button()
+
+function drawCoolButton(){
+    let score1 = document.getElementById('homeScore')
+    team1 = 0 
+ 
+    score1.innerText = team1
+    console.log(team1)
+}
+drawCoolButton() 
 
 
